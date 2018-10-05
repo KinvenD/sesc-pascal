@@ -3,15 +3,6 @@
 #include <string.h>
 
 
-
-char* deletechar(char* str,int b){
-    char newstr[1001];
-    for(int i = b; i < strlen(str); i++){
-        str[i] = (int)str[i+1];
-    }    
-  return str;
-}
-
 int factorial(int a){
   int b = 1;
   for(int i = 1; i<=a; i++){
